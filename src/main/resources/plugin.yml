@@ -1,0 +1,14 @@
+name: Maria
+version: '${version}'
+main: srdqrk.maria.Maria
+api-version: 1.17
+authors: [ SrDqrk ]
+description: Simple plugin to MariaDark
+permissions:
+  kiwistudios.*:
+    descrption: Gives access to all Withering Souls commands
+    children:
+      kiwistudios.builder: true
+  kiwistudios.builder:
+    description: Gives access to break item frames
+    default: op
