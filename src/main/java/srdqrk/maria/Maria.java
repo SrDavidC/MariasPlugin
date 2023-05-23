@@ -24,12 +24,12 @@ public final class Maria extends JavaPlugin {
         listenerManager = new ListenerManager(this);
         //Creates config.yml
         // createCustomConfig();
-        this.saveDefaultConfig();
-        saveConfig();
+        // this.saveDefaultConfig();
+        // saveConfig();
         // this.saveDefaultConfig();
 
         // createCustomConfig();
-        whitelistWorlds = Arrays.asList(this.getConfig().getString(worldsPath).split(","));
+        // whitelistWorlds = Arrays.asList(this.getConfig().getString(worldsPath).split(","));
     }
 
     @Override
